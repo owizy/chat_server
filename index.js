@@ -9,7 +9,7 @@ import { Server } from "socket.io";
 import UserModel from "./Models/UserModel.js";
 import StatusRoute from "./Routes/statusRoute.js";
 
-const io = new Server({cors:"http://localhost:3000"})
+const io = new Server({cors:"https://chat-app-51na.onrender.com"})
 dotenv.config()
 const app =express()
 app.use(express.json())
